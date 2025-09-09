@@ -1,0 +1,195 @@
+<table style="width: 100%; border-collapse: collapse; text-align: left; font-family: Arial, sans-serif;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th style="padding: 10px; border: 1px solid #ddd;">Agro-met Parameter</th>
+            <th style="padding: 10px; border: 1px solid #ddd;">AER IL1a</th>
+            <th style="padding: 10px; border: 1px solid #ddd;">AER DL1b</th>
+            <th style="padding: 10px; border: 1px solid #ddd;">AER IL3</th>
+            <th style="padding: 10px; border: 1px solid #ddd;">AER IL1b</th>
+            <th style="padding: 10px; border: 1px solid #ddd;">AER IL1a</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: #f2f2f2;">
+            <td style="padding: 10px; border: 1px solid #ddd;">
+            	Seasonal Rainfall Forecast
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<select name="AER1" id="AER1">
+		  <option value="Below Normal">Below Normal</option>
+		  <option value="Near Normal" selected>Near Normal</option>
+		  <option value="Above Normal">Above Normal</option>
+		</select>
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<select name="AER2" id="AER2">
+		  <option value="Below Normal">Below Normal</option>
+		  <option value="Near Normal" selected>Near Normal</option>
+		  <option value="Above Normal">Above Normal</option>
+		</select>
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<select name="AER3" id="AER3">
+		  <option value="Below Normal">Below Normal</option>
+		  <option value="Near Normal" selected>Near Normal</option>
+		  <option value="Above Normal">Above Normal</option>
+		</select>
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<select name="AER4" id="AER4">
+		  <option value="Below Normal">Below Normal</option>
+		  <option value="Near Normal" selected>Near Normal</option>
+		  <option value="Above Normal">Above Normal</option>
+		</select>
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<select name="AER5" id="AER5">
+		  <option value="Below Normal">Below Normal</option>
+		  <option value="Near Normal" selected>Near Normal</option>
+		  <option value="Above Normal">Above Normal</option>
+		</select>
+            </td>
+        </tr>
+        <tr style="background-color: #f2f2f2;">
+            <td style="padding: 10px; border: 1px solid #ddd;">
+            	Received Rainfall in Last Month
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<select name="AER1" id="AER1">
+		  <option value="Below Normal">Below Normal</option>
+		  <option value="Near Normal" selected>Near Normal</option>
+		  <option value="Above Normal">Above Normal</option>
+		</select>
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<select name="AER2" id="AER2">
+		  <option value="Below Normal">Below Normal</option>
+		  <option value="Near Normal" selected>Near Normal</option>
+		  <option value="Above Normal">Above Normal</option>
+		</select>
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<select name="AER3" id="AER3">
+		  <option value="Below Normal">Below Normal</option>
+		  <option value="Near Normal" selected>Near Normal</option>
+		  <option value="Above Normal">Above Normal</option>
+		</select>
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<select name="AER4" id="AER4">
+		  <option value="Below Normal">Below Normal</option>
+		  <option value="Near Normal" selected>Near Normal</option>
+		  <option value="Above Normal">Above Normal</option>
+		</select>
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<select name="AER5" id="AER5">
+		  <option value="Below Normal">Below Normal</option>
+		  <option value="Near Normal" selected>Near Normal</option>
+		  <option value="Above Normal">Above Normal</option>
+		</select>
+            </td>
+        </tr>
+        <tr style="background-color: #f2f2f2;">
+            <td style="padding: 10px; border: 1px solid #ddd;">
+            	Minor Tank Water Availability 0%-30%
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER1-mtwa-range1" name="AER1-mtwa-range1" value="1">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER2-mtwa-range1" name="AER2-mtwa-range1" value="1">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER3-mtwa-range1" name="AER3-mtwa-range1" value="1">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER4-mtwa-range1" name="AER4-mtwa-range1" value="1">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER5-mtwa-range1" name="AER5-mtwa-range1" value="1">
+            </td>
+        </tr>
+        <tr style="background-color: #f2f2f2;">
+            <td style="padding: 10px; border: 1px solid #ddd;">
+            	Minor Tank Water Availability 31%-50%
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER1-mtwa-range2" name="AER1-mtwa-range2" value="2">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER2-mtwa-range2" name="AER2-mtwa-range2" value="2">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER3-mtwa-range2" name="AER3-mtwa-range2" value="2">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER4-mtwa-range2" name="AER4-mtwa-range2" value="2">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER5-mtwa-range2" name="AER5-mtwa-range2" value="2">
+            </td>
+        </tr>
+        <tr style="background-color: #f2f2f2;">
+            <td style="padding: 10px; border: 1px solid #ddd;">
+            	Minor Tank Water Availability 51%-70%
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER1-mtwa-range3" name="AER1-mtwa-range3" value="3">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER2-mtwa-range3" name="AER2-mtwa-range3" value="3">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER3-mtwa-range3" name="AER3-mtwa-range3" value="3">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER4-mtwa-range3" name="AER4-mtwa-range3" value="3">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER5-mtwa-range3" name="AER5-mtwa-range3" value="3">
+            </td>
+        </tr>
+        <tr style="background-color: #f2f2f2;">
+            <td style="padding: 10px; border: 1px solid #ddd;">
+            	Minor Tank Water Availability 71%-90%
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER1-mtwa-range4" name="AER1-mtwa-range4" value="4">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER2-mtwa-range4" name="AER2-mtwa-range4" value="4">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER3-mtwa-range4" name="AER3-mtwa-range4" value="4">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER4-mtwa-range4" name="AER4-mtwa-range4" value="4">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER5-mtwa-range4" name="AER5-mtwa-range4" value="4">
+            </td>
+        </tr>
+        <tr style="background-color: #f2f2f2;">
+            <td style="padding: 10px; border: 1px solid #ddd;">
+            	Minor Tank Water Availability 91%-100%
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER1-mtwa-range5" name="AER1-mtwa-range5" value="5">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER2-mtwa-range5" name="AER2-mtwa-range5" value="5">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER3-mtwa-range5" name="AER3-mtwa-range5" value="5">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER4-mtwa-range5" name="AER4-mtwa-range5" value="5">
+            </td>
+            <td style="padding: 10px; border: 1px solid #ddd;">
+		<input type="checkbox" id="AER5-mtwa-range5" name="AER5-mtwa-range5" value="5">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
