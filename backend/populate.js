@@ -402,16 +402,16 @@ const meteorologyData = [
             png1: readImage(path.join(__dirname, 'dbAssets/AgroMet Data for Vavuniya', '2024-12-00-DAD-Water-Availability-Forecast-Minor-Tank.png')),
         },
     },
-    {
-        department: "DOA",
-        category: "Parameters",
-        month: "December",
-        year: 2024,
-        district: "Vavuniya",
-        content: {
-            text: readTextFile(path.join(__dirname, 'dbAssets/AgroMet Data for Vavuniya', '2024-12-00-DoA-Agromet-Parameter-Selection.txt')),
-        },
-    },
+    // {
+    //     department: "DOA",
+    //     category: "Parameters",
+    //     month: "December",
+    //     year: 2024,
+    //     district: "Vavuniya",
+    //     content: {
+    //         text: readTextFile(path.join(__dirname, 'dbAssets/AgroMet Data for Vavuniya', '2024-12-00-DoA-Agromet-Parameter-Selection.txt')),
+    //     },
+    // },
 
     {
         department: "DoM",
@@ -746,16 +746,16 @@ const meteorologyData = [
             png1: readImage(path.join(__dirname, 'dbAssets/PUT', '2025-08-00-DAD-Water-Availability-Forecast-Minor-Tank.png')),
         },
     },
-    {
-        department: "DOA",
-        category: "Parameters",
-        month: "August",
-        year: 2025,
-        district: "Puttalam",
-        content: {
-            text: readTextFile(path.join(__dirname, 'dbAssets/PUT', '2025-08-00-DoA-Agromet-Parameter-Selection.txt')),
-        },
-    },
+    // {
+    //     department: "DOA",
+    //     category: "Parameters",
+    //     month: "August",
+    //     year: 2025,
+    //     district: "Puttalam",
+    //     content: {
+    //         text: readTextFile(path.join(__dirname, 'dbAssets/PUT', '2025-08-00-DoA-Agromet-Parameter-Selection.txt')),
+    //     },
+    // },
     // // Add other data here in similar fashion, using `readImage` for png1, png2, and png3
     // {
     //     department: "ID",
@@ -972,16 +972,16 @@ const meteorologyData = [
             png1: readImage(path.join(__dirname, 'dbAssets/KUR', '2025-08-00-DAD-Water-Availability-Forecast-Minor-Tank.png')),
         },
     },
-        {
-        department: "DOA",
-        category: "Parameters",
-        month: "August",
-        year: 2025,
-        district: "Kurunegala",
-        content: {
-            text: readTextFile(path.join(__dirname, 'dbAssets/KUR', '2025-08-00-DoA-Agromet-Parameter-Selection.txt')),
-        },
-    },
+    // {
+    //     department: "DOA",
+    //     category: "Parameters",
+    //     month: "August",
+    //     year: 2025,
+    //     district: "Kurunegala",
+    //     content: {
+    //         text: readTextFile(path.join(__dirname, 'dbAssets/KUR', '2025-08-00-DoA-Agromet-Parameter-Selection.txt')),
+    //     },
+    // },
 ];
 
 // Function to populate the database
